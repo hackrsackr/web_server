@@ -2,7 +2,7 @@
 // A simple server implementation showing how to:
 //  * serve static messages
 //  * read GET and POST parameters
-//  * handle missing pages / 404s
+//  * handle missing pages f/ 404s
 //
 
 // Import required libraries
