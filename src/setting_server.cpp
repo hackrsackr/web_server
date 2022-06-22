@@ -160,9 +160,9 @@ String processor(const String& var){
   {
     if(var == _SETPOINT_NAMES[i])
     {
-
+      
       return readFile(SPIFFS, _SETPOINT_FILES[i]);
-    }
+    } else {}
   }
   return String();
 }
